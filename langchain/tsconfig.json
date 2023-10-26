@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/recommended",
   "compilerOptions": {
+    "inlineSourceMap": true,
     "outDir": "../dist",
     "rootDir": "./src",
     "target": "ES2021",
