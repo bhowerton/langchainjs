@@ -6,6 +6,10 @@ import CodeBlock from "@theme/CodeBlock";
 
 # Chat models
 
+:::info
+Head to [Integrations](/docs/integrations/chat) for documentation on built-in integrations with chat model providers.
+:::
+
 Chat models are a variation on language models.
 While chat models use language models under the hood, the interface they expose is a bit different.
 Rather than expose a "text in, text out" API, they expose an interface where "chat messages" are the inputs and outputs.
@@ -55,7 +59,7 @@ The types of messages currently supported in LangChain are `AIMessage`, `HumanMe
 
 #### Generic inputs -> generic outputs
 
-You can generate LLM responses by calling `.invoke` and passing in whatever inputs you defined in the (`Runnable`)[/docs/expression_language/].
+You can generate LLM responses by calling `.invoke` and passing in whatever inputs you defined in the [`Runnable`](/docs/expression_language/).
 
 import RunnableExample from "@examples/models/chat/runnable_chat_quick_start.ts";
 
